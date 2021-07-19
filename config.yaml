@@ -1,0 +1,32 @@
+top_file: "./topfile/文旌教育_片头.mp4"
+# 配置片头文件路径
+end_file: "./endfile/文旌教育_片尾.mp4"
+# 配置片尾文件路径
+watermark_file: "./waterfile/文旌教育_logo.png"
+# 配置水印文件路径
+mid_file: "./midfile"
+# 配置中间文件的目录
+finall_file: "./finallfile"
+# 配置输出文件的目录
+
+# 输出文件参数
+write_videofile: {
+    fps: ~,
+    codec: ~,
+    bitrate: ~, 
+    audio: True, 
+    audio_fps: 44100,
+    preset: "medium",
+    audio_nbytes: 4, 
+    audio_codec: ~,
+    audio_bitrate: ~, 
+    audio_bufsize: 2000,
+    temp_audiofile: ~,
+    rewrite_audio: True, 
+    remove_temp: True,
+    write_logfile: True, 
+    verbose: True,
+    threads: ~, 
+    ffmpeg_params: ~,
+    logger: 'bar'
+}
