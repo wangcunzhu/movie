@@ -1,0 +1,9 @@
+/.idea/
+__pycache__
+/venv/
+/topfile/
+/endfile/
+/waterfile/
+/midfile/
+/finallfile/
+/build/
